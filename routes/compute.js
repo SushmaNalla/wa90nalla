@@ -7,8 +7,8 @@ router.get('/',(req,res)=>{
     let data=req.query.x
     console.log(data)
     res.render('compute',{
-        randSolution:`cos applied to ${randomNumber} is ${Math.atan2(randomNumber)}`,
-        querySolution:` cos applied to ${data} is ${Math.atanh(data)}`
+        randSolution:`atan2 applied to ${randomNumber} is ${Math.atan2(randomNumber)}`,
+        querySolution:` atan2 applied to ${data} is ${Math.atan2(data)}`
     })
 })
 
